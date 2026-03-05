@@ -1,0 +1,38 @@
+.backImg{
+    background-image: url(../assets/imges/landing-page/sec-5/Vector.png);
+    /* background-position: center center; */
+    /* background-size: 100% 100%; */
+    
+}
+
+.mainBg{
+    background-color: #1572D31A !important;
+}
+
+input{
+width: 374px;
+height: 45px;
+background: #CEDCFF !important;
+border-radius: 61px !important;
+
+}
+
+/* Frame 16 */
+.btnSubmet{
+padding: 8px;
+gap: 8px;
+width: 159px;
+height: 48px;
+background: #1572D3;
+border-radius: 8px;
+}
+.btnSubmet:hover{
+    color: #1572D3 !important;
+    font-weight:600;
+    border:2px solid #1572D3 !important;
+    letter-spacing: 1.5px;
+
+}
+
+
+

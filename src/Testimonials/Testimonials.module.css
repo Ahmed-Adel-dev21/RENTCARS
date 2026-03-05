@@ -1,0 +1,14 @@
+.backImg{
+    background-image: url(../assets/imges/landing-page/sec-6/bg-sec6.png);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 75vh;
+    
+}
+body{
+    box-sizing: border-box !important;
+}
+
+.mainBg{
+    background-color: #1572D31A !important;
+}

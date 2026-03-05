@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+.home {
+    height: calc(100vh - 78px);
+}
+
+.car_animation {
+    opacity: 0;
+    transform: translateX(100px);
+    animation: parkCar 1s ease-in-out forwards;
+}
+
+@keyframes parkCar {
+    0% {
+        width: 0%; 
+        opacity: 0.2;
+        transform: translatey(300px);
+        transform: translateX(300px);
+    }
+
+    70% {
+        
+        opacity: 0.8;
+        transform: translateX(-60px);
+        transform: translatey(-60px);
+    }
+    100% {
+        width: 75%;
+        opacity: 1;
+        transform: translateX(0);
+        transform: translatey(0);
+    }
+}
